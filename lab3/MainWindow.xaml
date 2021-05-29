@@ -1,0 +1,21 @@
+﻿<Window x:Class="lab3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="240" Width="420" ResizeMode="CanMinimize">
+    <Grid>
+        <Label Content="Podaj a" HorizontalAlignment="Left" Height="25" Margin="18,11,0,0" VerticalAlignment="Top" Width="79"/>
+        <Label Content="Podaj b" HorizontalAlignment="Left" Height="25" Margin="18,48,0,0" VerticalAlignment="Top" Width="79"/>
+        <TextBox x:Name="boxA" HorizontalAlignment="Left" Height="25" Margin="131,11,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+        <TextBox x:Name="boxB" HorizontalAlignment="Left" Height="25" Margin="131,51,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+        <TextBlock x:Name="textWynik" HorizontalAlignment="Left" Height="40" Margin="55,146,0,0" Text="Wynik" TextWrapping="Wrap" VerticalAlignment="Top" Width="315"/>
+        <Button x:Name="btnSuma" Content="Suma" HorizontalAlignment="Left" Height="20" Margin="12,104,0,0" VerticalAlignment="Top" Width="85" Click="btnSuma_Click"/>
+        <Button x:Name="btnRoznica" Content="Różnica" HorizontalAlignment="Left" Height="20" Margin="102,104,0,0" VerticalAlignment="Top" Width="85" Click="btnRoznica_Click"/>
+        <Button x:Name="btnIloczyn" Content="Iloczyn" HorizontalAlignment="Left" Height="20" Margin="192,104,0,0" VerticalAlignment="Top" Width="85" Click="btnIloczyn_Click"/>
+        <Button x:Name="btnIloraz" Content="Iloraz" HorizontalAlignment="Left" Height="20" Margin="282,104,0,0" VerticalAlignment="Top" Width="85" Click="btnIloraz_Click"/>
+
+    </Grid>
+</Window>
